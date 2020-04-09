@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(116, 141, 141);
+    font-family: 'M PLUS Rounded 1c';
+}
+
+h1 {
+    font-size: 115px;
+    text-align: center;
+    letter-spacing: 20px;
+    color: rgb(191, 202, 202);
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(22, 39, 39);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.homepageimage {
+    border: solid 1px black;
+}
+
+div.home {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 45px;
+    display: inline-block;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(40, 75, 75);
+    text-decoration: none;
+    padding: 10px 45px 10px 45px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-left: 160px
+}
+
+a:hover {
+    color: rgb(163, 22, 81);
+    font-weight: none; 
+    text-decoration: underline;
+}
