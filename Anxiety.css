@@ -4,55 +4,214 @@ body {
 }
 
 h1 {
-    font-size: 115px;
+    font-size: 100px;
     text-align: center;
-    letter-spacing: 20px;
-    color: rgb(191, 202, 202);
+    letter-spacing: 13px;
+    color: rgb(198, 202, 202);
     margin-bottom: 1px;
     margin-top: 10px;
 }
 
 h2 {
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(198, 202, 202);
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+
+h3 {
     font-size: 20px;
     font-style: italic;
     color: rgb(22, 39, 39);
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-bottom: 35px;
 }
 
-.homepageimage {
-    border: solid 1px black;
-}
-
-div.home {
+h4 {
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(22, 39, 39);
     text-align: center;
+    margin-top: 15px;
 }
 
-ul {
+main {
+    position: relative;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    color:rgb(2, 63, 63);
+}
+
+ul{
+    margin-top: 60px;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(198, 202, 202);
     list-style-type: none;
-    margin: 0;
-    font-size: 45px;
-    display: inline-block;
+    padding-left: 0px;
+}
+
+/* NAVBAR */
+.TopOption {
+    padding-top: 220px;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 185px; 
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: rgb(103, 138, 143);
+    overflow-x: visible; 
+    padding-top: 20px;
+}
+
+
+.sidenav a {
+    padding: 6px 8px 30px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(2, 63, 63);
+    display: block;
+}
+
+.sidenav a:hover {
+    color: rgb(214, 210, 210);
+}
+
+/* CSS FOR SLIDESHOWS */
+.slideshow-container {
+    max-width: 750px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 28px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: rgb(169, 172, 172);
+  font-size: 13px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/*Email Us Link*/
+.emailUs a {
+    color: rgb(198, 202, 202);
+}
+
+.emailUs a:hover {
+    color: rgb(2, 63, 63);
+}
+
+/*Contact Form*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+  }
+
+  input[type=submit] {
+    background-color: rgb(2, 63, 63);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+.submit-button {
+    width: 100%;
     text-align: center;
 }
 
-li {
+input[type=submit]:hover {
+    background-color: rgb(2, 63, 63);
+  }
+
+  .marginforpage {
+    margin-left: 185px;
+  }
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: rgb(116, 141, 141);
+    margin: auto;
+    width: 50%;
+  }
+
+/*SUPPORT SITES*/
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
     float: left;
-}
+    width: 280px;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
 
-li a {
-    display: block;
-    color: rgb(40, 75, 75);
-    text-decoration: none;
-    padding: 10px 45px 10px 45px;
-    margin-top: 5px;
+  .column:last-child {
     margin-right: 0px;
-    margin-left: 160px
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.row{
+    margin: auto;
+    width: 880px;
 }
 
-a:hover {
-    color: white;
-    font-weight: none; 
-    text-decoration: underline;
-}
+  .link-style{
+    border: 2px solid rgb(22, 39, 39);
+    border-radius: 4px;
+  }
+
